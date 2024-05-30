@@ -1,0 +1,78 @@
+.App {
+  text-align: center;
+  font-size: 24px;
+  color: white;
+}
+
+:root {
+
+  background: rgb(9,9,121);
+background: radial-gradient(circle, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 54%, rgba(69,2,63,1) 88%);
+}
+
+.baslik1 {
+padding-top: 30px;
+padding-bottom: 30px;
+background-color: black;
+border-radius: 30px;
+}
+
+.baslik2 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+
+}
+
+.veriler {
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+}
+
+.tablo {
+
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  
+
+}
+
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
